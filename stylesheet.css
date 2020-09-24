@@ -1,4 +1,3 @@
-
 body{
 	background-color: #333;
 	color: white;
@@ -51,6 +50,15 @@ th, td {
   background-color: #333
   font-size: 200px;
 }
+#header{
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 3px;
+  border-color: #76A646; 
+  margin: 5px;
+  padding: 5px;
+  width:300px;
+}
 .menuItem{
   font-style: italic;
   font-size: 25px;  
@@ -62,6 +70,19 @@ th, td {
   border-color: #76A646; 
   margin: 5px;
   padding: 5px;
+  width: 600px;
+}
+.review{
+  font-style: italic;
+}
+article{
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 3px;
+  border-color: #76A646; 
+  margin: 5px;
+  padding: 5px;
+  max-width: 75%;
 }
 footer {
   text-align: center;
